@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:background="#FFC0CB">
+            
+           <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:background="#F49AC2">
+           <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button" 
+            android:padding="10sp"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" 
+            android:typeface="sans"
+            android:text="Back/पीछे"
+            android:layout_alignParentTop="true"/>
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:typeface="sans"
+            android:textColor="#ffffff"
+            android:text="Instructions/निर्देश"/>
+            </RelativeLayout>
+            
+   <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+           <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View 
+            android:layout_height="12dp"
+            android:layout_width="fill_parent"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dip"
+            android:textColor="#702963"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:typeface="sans"
+            android:text="Learn alphabets"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dip"
+            android:textColor="#a42cff"
+            android:textSize="18sp"
+            android:typeface="serif"
+            android:text="It shows the tiles  with Capital letters and small letters .It is a non interactive demo.."/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dip"
+            android:textColor="#a42cff"
+            android:textSize="18sp"
+            android:typeface="serif"
+            android:text="बड़े और छोटे अक्षरों को पहचानना सीखे।"/>
+
+           <View 
+            android:layout_height="12dp"
+            android:layout_width="fill_parent"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dip"
+            android:textColor="#702963"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Match alphabets and numbers"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dip"
+            android:textColor="#a42cff"
+            android:textSize="18sp"
+            android:text="There are different coloured tiles showing Upper case Alphabets, Lower case alphabets and numbers. The user has to match the alphabets with their respective small alphabets  and match the same number tiles. Keep doing it until the screen is cleared of all the tiles,then proceed to the next screen"/>
+
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dip"
+            android:textColor="#a42cff"
+            android:textSize="18sp"
+            android:text="बड़े ,छोटे अक्षरों और संख्या को अलग अलग रंग के टाइल्स मे दिया गया है। बड़े अक्षर को छोटे अक्षर से और संख्या को	
+समान संख्या से मिलाएँ। मिलाने के लिए दो समान अक्षरों या संख्या को दबाएँ। स्क्रीन के सारे अक्षरों को एक एक कर मिलाए जबतक स्क्रीन के सारे टाइल्स ख़त्म ना हो जाए। 
+एक स्क्रीन समाप्त हो जाने के बाद नया स्क्रीन आएगा।"/>
+           
+     </LinearLayout>
+           </ScrollView>
+           
+</LinearLayout>

@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".DisplayAlphabets" >
+   
+   <android.support.v4.view.ViewPager
+	android:id="@+id/view_pager"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"/>
+
+   <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <Button
+    android:id="@+id/backtohome"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button"
+    style="@style/ButtonText" 
+    android:text="Back/पीछे" 
+    android:layout_alignParentTop="true"/>
+   <Button
+    android:id="@+id/back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button" 
+    style="@style/ButtonText"
+    android:text="Previous/पिछला" 
+    android:layout_toRightOf="@+id/backtohome"/>
+   <Button
+    android:id="@+id/next"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button" 
+    style="@style/ButtonText"
+    android:text="Next/आगे" 
+    android:layout_alignParentRight="true"/>
+   </RelativeLayout>
+</RelativeLayout>

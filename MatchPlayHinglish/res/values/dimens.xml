@@ -1,0 +1,10 @@
+<resources>
+    
+  <dimen name="button_width">220dp</dimen>
+  
+  <dimen name="padding_small">4dp</dimen>
+  <dimen name="padding_medium">8dp</dimen>
+  <dimen name="padding_large">16dp</dimen>
+  <dimen name="cell">20sp</dimen>
+  <dimen name="report_padding">5dp</dimen>
+</resources>

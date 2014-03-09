@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg">
+    
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+   <Button
+    android:id="@+id/back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button" 
+    style="@style/ButtonText"
+    android:text="Back/पीछे" 
+    android:layout_alignParentTop="true"/>
+   <TextView 
+    android:id="@+id/marquee"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingTop="8dp"
+    android:layout_weight="8"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:typeface="sans"
+    android:textColor="#8E4585"
+    android:text="अक्षर को अक्षर से और संख्या को संख्या से मिलाएँ"/>
+   <Button
+    android:id="@+id/next"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button" 
+    style="@style/ButtonText"
+    android:text="Next/आगे" 
+    android:layout_alignParentRight="true"/>
+   </RelativeLayout>
+
+    <GridView
+    android:id="@+id/gridview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:numColumns="7"
+    android:verticalSpacing="2dp"
+    android:horizontalSpacing="5dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"/>
+</LinearLayout>
