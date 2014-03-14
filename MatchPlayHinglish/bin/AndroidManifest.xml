@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iitk.matchplay.hinglish"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk 
+        android:minSdkVersion="8"
+        android:targetSdkVersion="12" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:icon="@drawable/logo"
+        android:label="MatchPlay Hinglish">
+        <activity
+            android:name="com.iitk.MatchPlayActivity" 
+            android:screenOrientation="landscape">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.iitk.GameActivity"
+                android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.iitk.GameOver"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.iitk.DisplayAlphabets"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.iitk.Instruction"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.iitk.report.DisplayRecord"
+            android:screenOrientation="landscape">
+        </activity>
+    </application>
+
+</manifest>
